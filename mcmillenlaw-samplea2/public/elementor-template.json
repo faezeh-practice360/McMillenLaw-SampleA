@@ -1,0 +1,416 @@
+{
+  "version": "0.4",
+  "title": "McMillen Legal - Los Angeles Criminal Defense Law Firm",
+  "type": "page",
+  "content": [
+    {
+      "id": "sec_hero",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F7F6F1",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "col_hero_left",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "padding": {
+               "unit": "px",
+               "top": "0",
+               "right": "30",
+               "bottom": "0",
+               "left": "20"
+            }
+          },
+          "elements": [
+            {
+              "id": "hero_overline",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Federal & State Trial Litigators",
+                "title_color": "#C99A2E",
+                "size": "small",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": "11" },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": { "unit": "px", "size": "3" }
+              }
+            },
+            {
+              "id": "hero_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "A Powerful Experienced Defense Team",
+                "title_color": "#071B4D",
+                "size": "xl",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": "64" },
+                "typography_font_weight": "300",
+                "typography_text_transform": "uppercase",
+                "typography_line_height": { "unit": "em", "size": "1.1" }
+              }
+            },
+            {
+              "id": "hero_desc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>When your freedom, record, and reputation are at stake, McMillen Legal delivers strategic criminal defense backed by decades of high-stakes trial experience in state, federal, and municipal courts.</p>",
+                "text_color": "#2F3440",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": "15" },
+                "typography_line_height": { "unit": "em", "size": "1.9" }
+              }
+            },
+            {
+              "id": "hero_cta_btn",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Request Legal Counsel",
+                "link": {
+                  "url": "#contact",
+                  "is_external": "",
+                  "nofollow": ""
+                },
+                "align": "left",
+                "background_color": "#071B4D",
+                "text_color": "#FFFFFF",
+                "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0" },
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": "11" },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": { "unit": "px", "size": "1.8" }
+              }
+            }
+          ]
+        },
+        {
+          "id": "col_hero_right",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "hero_image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "id": "",
+                  "url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1400&q=80"
+                },
+                "image_size": "large",
+                "border_radius": { "unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10" }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_attorneys",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "100",
+          "left": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "col_attorneys_left",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "padding": {
+               "unit": "px",
+               "top": "0",
+               "right": "40",
+               "bottom": "0",
+               "left": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "attorney_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "LOS ANGELES CRIMINAL DEFENSE PARTNERS",
+                "title_color": "#0A1020",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": "42" },
+                "typography_font_weight": "300",
+                "typography_text_transform": "uppercase",
+                "typography_line_height": { "unit": "em", "size": "1.1" }
+              }
+            },
+            {
+              "id": "attorney_body",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>At McMillen Legal, we specialize in high-stakes defense across complex federal and state jurisdictions. Our trial experience ranges from white-collar offenses and federal multi-defendant conspiracies to serious felonies and misdemeanors. Every case receives micro-focused asset investigations and partner-level tactical execution.</p>",
+                "text_color": "#333333",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": "15" },
+                "typography_line_height": { "unit": "em", "size": "1.85" }
+              }
+            },
+            {
+              "id": "attorney_quote",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<blockquote>\"Behind every allegation is a family, a career, and a lifetime of hard work. Our standard of advocacy manages those responsibilities with ultimate gravity.\"</blockquote>",
+                "text_color": "#263044",
+                "background_color": "#F7F6F1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "col_attorneys_right",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "attorney_photo",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=1200&q=80"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_practices",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FBFAF7",
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "0",
+          "bottom": "90",
+          "left": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "col_practices_full",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "prac_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "OUR CRITICAL PRACTICE AREAS",
+                "title_color": "#0A1020",
+                "align": "center",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": "36" }
+              }
+            },
+            {
+              "id": "prac_grid_row1",
+              "elType": "section",
+              "isInner": true,
+              "settings": {},
+              "elements": [
+                {
+                  "id": "col_p1",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": { "_column_size": 33 },
+                  "elements": [
+                    {
+                      "id": "pib1",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "icon": "fa fa-gavel",
+                        "title": "DUI Defense",
+                        "description": "Strategic counsel for high-stakes misdemeanor, multi-offense, and vehicular allegations.",
+                        "primary_color": "#C99A2E"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "col_p2",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": { "_column_size": 33 },
+                  "elements": [
+                    {
+                      "id": "pib2",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "icon": "fa fa-shield",
+                        "title": "Drug Crimes",
+                        "description": "Ex-prosecutor perspective on federal conspiracy, distribution, and possession allegations.",
+                        "primary_color": "#C99A2E"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "col_p3",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": { "_column_size": 33 },
+                  "elements": [
+                    {
+                      "id": "pib3",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "settings": {
+                        "icon": "fa fa-bank",
+                        "title": "Federal Crimes",
+                        "description": "Relentless representation matching resources against federal regulatory bodies.",
+                        "primary_color": "#C99A2E"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_banner",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#071B4D",
+        "padding": {
+          "unit": "px",
+          "top": "110",
+          "right": "0",
+          "bottom": "110",
+          "left": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "col_banner",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "banner_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "WHEN YOUR FUTURE IS ON THE LINE, WE ARE HERE.",
+                "title_color": "#FFFFFF",
+                "align": "center",
+                "typography_font_family": "Playfair Display",
+                "typography_font_size": { "unit": "px", "size": "46" }
+              }
+            },
+            {
+              "id": "banner_button",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Call Live Emergency Advisors (24/7)",
+                "align": "center",
+                "link": {
+                  "url": "tel:2135550199"
+                },
+                "background_color": "#C99A2E",
+                "text_color": "#071B4D"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_contact",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "95",
+          "right": "0",
+          "bottom": "95",
+          "left": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "col_contact_inner",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "cont_card_wrapper",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style='background-color:#071B4D; padding: 50px; text-align: center; color: white;'><h3>24/7 ADVOCACY CASE EVALUATION</h3><p>Submit your secure indictment documentation for immediate review.</p></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "novamira-mcmillen-legalso": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@automattic/mcp-wordpress-remote@latest"
+      ],
+      "env": {
+        "WP_API_URL": "https://mcmillen.legalsoftsites.com/wp-json/mcp/novamira",
+        "WP_API_USERNAME": "faezeh",
+        "WP_API_PASSWORD": "w70XGnghulMHEKY8WlkhrkPF"
+      }
+    }
+  }
+}
