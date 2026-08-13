@@ -1,0 +1,6 @@
+{
+  "name": "McMillen Legal",
+  "description": "Premium Tulsa Criminal Defense Law Firm Website",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
